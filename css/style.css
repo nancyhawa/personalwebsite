@@ -8,7 +8,17 @@ selector {
 }
 
 */
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,200);
+
+/*Colors
+
+Hot Pink: F92672
+Blue: 
+Green: 7DEA2A
+Orange: FF6E1E
+Gray: 
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200); 
 
 * {
 	box-sizing: border-box;
@@ -16,12 +26,7 @@ selector {
 	-webkit-box-sizing: border-box;
 }
 
-/*html {
-	height: 100%;
-}
-*/
-body {
-	/*background-color: #F92672;*/
+body {	
 	font-family: "Raleway", "Georgia", "Times New Roman", "Verdana", serif;
 	background: linear-gradient(#F92672, #FF6E1E);
 	min-height: 100vh;
@@ -30,36 +35,34 @@ body {
 #top_border {
 	height: 2em;
 	background-color: #F92672;
-	border-bottom: 2px solid #7DEA2A;
+	/*border-bottom: 2px solid #7DEA2A;*/
+
 }
 
 .index_body {
-	/*background-color: #F92672;*/
 	font-family: "Raleway", "Georgia", "Times New Roman", "Verdana", serif;
 }
 
 #divider {
-	border-top: #7DEA2A solid 2px;;
+	/*border-top: #7DEA2A solid 2px;*/
 }
 
 .navlink {
 	float:left;
 	width: 25%;
 	height: 1.5em;
-	/*background-color: #F92672;*/
 	font-size: 1.5em;
+	min-width: 145px;
 }
 
 #navwrapper {
 	display: block;
 	width: 70%;
 	margin: 0 auto;
-	
-	/*background-color: #F92672;*/
+	min-width: 600px;
 }
 
 #nav_bar {
-	/*background: #F92672;*/
 	color: #272822;
 	line-height: 2em;
 	text-align: center;
@@ -68,6 +71,7 @@ body {
 	border-bottom: white 2px solid;
 	border-top: white solid 2px;
 	margin-top: 8px;
+	min-width: 600px;
 	}
 
 .clearfix:after {
@@ -89,7 +93,7 @@ body {
 	color: #1592E5;
 	background-color: #FFFFFF;
 	border:  5px solid #1592E5;
-	/* border-bottom: #99609C solid 1px; */
+	min-width: 500px;
 }
 
 h1 {
@@ -129,6 +133,7 @@ nav a:active {
 	float: right;
 	width: 77%;
 	position: relative;
+	margin-left: 3%;
 	
 }
 .resume {
@@ -138,12 +143,14 @@ nav a:active {
 	width: 100%;
 	color: #2A292D;
 	border: 2px solid #1592E5;
+	overflow: scroll;
 }
 
 .sidebar, .sidebar:before {
 	width: 20%;
 	min-width: 150px;
 	min-height: 100%;
+	overflow: scroll;
 }
 
 .sidebar {
@@ -156,6 +163,7 @@ nav a:active {
 	position: absolute;
 	top: 0;
 	bottom: 0;
+	margin-right: 3%
 }
 
 .sidebar h2 {
@@ -255,7 +263,7 @@ footer {
 	position: relative;
 	width: 95%;
 	margin: auto;
-
+	min-width: 800px;
 }
 
 .indent {
@@ -267,10 +275,8 @@ footer {
 }
 
 .copyright {
-	/*margin-top: 10px;*/
 	margin-top: 10px;
-	/*border-top: 2px solid #F92672;
-	border-bottom: 2px solid #F92672;*/
+	margin-top: 10px;
 	width: 100%;
 	text-align: center;  
 	color: #F92672;
@@ -304,24 +310,11 @@ footer {
 	padding-left: 50px;
 }
 
-. {
-  /* fallback */
- /* background-color: #FBFEFE;
-  background: url(images/linear_bg_2.png);
-  background-repeat: repeat-x;*/
-
-  /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FF6E1E), to(##FBFEFE));
-
-  /* Safari 5.1, Chrome 10+ */
-  background: linear-gradient(#FBFEFE, #FF6E1E);
-
-  /* Firefox 3.6+ */
-  background: -moz-linear-gradient(top, #FBFEFE, #FF6E1E);
-
-  /* IE 10 */
-  background: -ms-linear-gradient(top, #FBFEFE, #FF6E1E);
-
-  /* Opera 11.10+ */
-  background: -o-linear-gradient(top, #FBFEFE, #FF6E1E);
+#green_border {
+	background-color: #7DEA2A;
+	width: 75%;
+	padding-bottom: 2px;
+	padding: 2px;
+	margin: auto;
+	min-width: 500px;
 }
